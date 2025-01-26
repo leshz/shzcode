@@ -1,0 +1,50 @@
+{
+  "name": "shzcode-content",
+  "version": "0.1.0",
+  "private": true,
+  "description": "s Strapi application for shzcode.dev porfolio website",
+  "license": "MIT",
+  "author": "A Strapi developer",
+  "scripts": {
+    "build": "strapi build",
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-users-permissions": "5.8.1",
+    "@strapi/strapi": "5.8.1",
+    "better-sqlite3": "11.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "38229819-e48b-4015-9b19-bea077a90460"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leshz/shzcode.content.git"
+  },
+  "keywords": [
+    "strapi",
+    "typescript",
+    "cms"
+  ],
+  "bugs": {
+    "url": "https://github.com/leshz/shzcode.content/issues"
+  },
+  "homepage": "https://github.com/leshz/shzcode.content#readme"
+}

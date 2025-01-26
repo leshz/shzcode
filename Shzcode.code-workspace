@@ -5,9 +5,10 @@
 		},
 		{
 			"path": "Frontend"
+		},
+		{
+			"path": "./"
 		}
 	],
-	"settings": {
-		
-	}
+	"settings": {}
 }

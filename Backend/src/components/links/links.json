@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "displayName": "Links"
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    },
+    "pruebas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::prueba.prueba"
+    }
+  }
+}

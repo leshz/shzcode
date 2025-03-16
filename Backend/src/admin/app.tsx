@@ -1,4 +1,6 @@
 import type { StrapiApp } from '@strapi/strapi/admin';
+import "prismjs";
+import "strapi-plugin-lexical/style.css"
 
 export default {
   config: {
@@ -8,7 +10,7 @@ export default {
       // 'cs',
       // 'de',
       // 'dk',
-      // 'es',
+      'es',
       // 'he',
       // 'id',
       // 'it',
